@@ -1,0 +1,88 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+
+
+*{
+    
+    font-family: 'DM Serif Display', serif;
+    margin: 0%;
+    padding: 0;
+}
+body{
+    margin: 0%;
+    padding: 0%;
+ 
+}
+
+h1{
+    font-size: 4.5vw;
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ip{
+    width: 50vw;
+    height: 9vh;
+    border: transparent;
+    border-bottom: 2px solid black;
+}
+input{
+    
+    outline: none;
+    border: none;
+    padding-left: 3vw;
+    font-size: 2vw;
+    text-emphasis: 1000;
+}
+
+footer{
+    position: absolute;
+    bottom: 0%;
+    margin-bottom: 1vh;
+    font-size: 1.5vw;
+    color: grey;
+}
+
+.navBar{
+    position: absolute;
+    top: 0%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    /* border: 2px solid  */
+    height: 5vh;
+    font-size: 1.5vw;
+}
+
+.img{
+    margin-top: 1vh;
+    height: 2vw;
+    width: 2vw;
+}
+
+
+.hire .conc .img{
+    transition:  0.4s ease-in-out;
+}
+.img:hover{
+    scale:1.5;
+}
+.hire:hover{
+    scale: 1.5;
+}
+.conc:hover{
+    scale: 1.5;
+}
+
+a{
+    text-decoration: none;
+    color: #020024;
+}
