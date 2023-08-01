@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 function App (){
 
-    const [txt , setText] = useState("jj");
+    const [txt , setText] = useState("");
 
     function handleChange(e){
         setText(e.target.value);
