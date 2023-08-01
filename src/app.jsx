@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 function App (){
 
-    const [txt , setText] = useState("jj");
+    const [txt , setText] = useState("");
 
     function handleChange(e){
         setText(e.target.value);
@@ -20,7 +20,7 @@ function App (){
 
     <QRCode  value={txt}  
         fgColor= "#020024"
-        size={"5vw"}
+        size={"4vw"}
     style={{ height: "auto", maxWidth: "50%", width: "20%" }}
     />
 
